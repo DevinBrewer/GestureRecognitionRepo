@@ -1,8 +1,8 @@
 This week we finished a basic version of the key input emulator, started brainstorming on a UI for the project, and achieved a basic level of transfer learning.
 
--- Expand on the emulator here --
+This week we setup a keystroke emulator that the AI can use to send keystrokes to the host OS. To test this, we are using the keystroke emulator in conjunction with some simple python games to test the input.
 
--- Expand on the UI here --
+We have also started planning on a configurable UI that, while alongside the AI, can be used to configure what actions can be assigned to certain keystrokes.
 
 With the last status update, we were made aware of a powerful lambda computer owned by the university which we can have unlimited access to.  This removes major obstacles we were formerly dealing with and has already enabled a much stronger work flow.  With this we were able to easily replicate a basic transfer learning tutorial from the official pytorch website, which uses the pretrained model ResNet18 as opposed to the one from the github repo we've been planning to use. We then added data for our first basic gesture, "fist", which was able to be recognized by our model with minimal tweaking.  We are now in pursuit of more basic gesture data to experiment further.
 
